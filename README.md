@@ -1,14 +1,16 @@
 # Udemy Erlang course
+This is the work product of the Udemy course [Modern Erlang for Beginners](https://www.udemy.com/course/modern-erlang-for-beginners/)
 ## Project directories 
 
-### Initial course material. 
-#### mybank-course 
+### mybank-course 
+This is the initial course material
 ```
 cd mybank-course/src
 erl
 > c(mybank).
 ```
 #### mybank-otp-course 
+This is the output from the latter part of the course where OTP is covered, however this application does not boot on it's own, which might be a configuration detail. At any rate, the application seems to have been designed that way.
 ```
 cd mybank-otp-course
 erlc -o ebin src/*.erl
